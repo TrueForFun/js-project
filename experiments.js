@@ -112,3 +112,27 @@ for (let i = 0; i < elementsToChange.length; i++) {
   const currentElement = elementsToChange[i];
   currentElement.innerText = "Modified by JavaScript!";
 }
+
+const button = document.querySelector(`.event-button`);
+button.addEventListener(`click`, function () {
+  alert(`hey there!`);
+});
+
+const input = document.querySelector(`.work-without-nap`);
+const paragrahp = document.querySelector(`.some-p`);
+
+input.addEventListener(`keyup`, function () {
+  paragrahp.innerText = input.value;
+});
+
+const colorInput = document.querySelector(`.color-input`);
+const colorBox = document.querySelector(`.color-box`);
+
+colorInput.addEventListener(`change`, function () {
+  colorBox.style.backgroundColor = colorInput.value;
+});
+document
+  .querySelector(`.button-container`)
+  .addEventListener(`click`, function (event) {
+    alert(`you clicked on button ${event.target.innerText}`);
+  });

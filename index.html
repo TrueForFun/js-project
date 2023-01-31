@@ -7,6 +7,22 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      .work-without-nap {
+        width: 16rem;
+        margin: 10px;
+      }
+      .color-box {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+      }
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        width: 25px;
+      }
+    </style>
     <div id="root">the app is not rendered</div>
     <ul>
       <li class="js-target">Unchanged</li>
@@ -16,6 +32,31 @@
       <li>Won't Change</li>
       <li class="js-target">Unchanged</li>
     </ul>
+    <div>
+      <button class="event-button">Click me!</button>
+    </div>
+    <div>
+      <input
+        placeholder="Gonna write to her? Does she write to you?"
+        class="work-without-nap"
+      />
+      <p class="some-p">
+        My balls are going to blow very soon. I guess I need a whore already
+      </p>
+    </div>
+
+    <div class="color-box"></div>
+    <input class="color-input" placeholder="Choose a color" />
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="button-container">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </div>
     <!-- <script type="module" src="./main.js"></script> -->
     <script src="./experiments.js"></script>
   </body>
