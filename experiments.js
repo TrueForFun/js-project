@@ -1,4 +1,4 @@
-const timesToRepeat = 10;
+// const timesToRepeat = 10;
 const samleString = `padla`;
 //let answer = ``
 //for (let i = 0; i < timesToRepeat; i++) {
@@ -6,7 +6,7 @@ const samleString = `padla`;
 //}
 //console.log (answer)
 
-console.log("".padStart(timesToRepeat * samleString.length, samleString));
+// Sconsole.log("".padStart(timesToRepeat * samleString.length, samleString));
 
 function addTwo(number) {
   return number + 2;
@@ -17,9 +17,11 @@ console.log(finalAnswer);
 let string = `Yulia is gonna give me a blowjob`;
 string = string.substring(9, 22);
 console.log(string);
+
 const sentence = `PaDla HuYadLa`;
 const lowercasesentence = sentence.toLowerCase();
 console.log(lowercasesentence);
+
 const number = 5.5;
 const roundedNumber = Math.round(number);
 console.log(roundedNumber);
@@ -136,3 +138,18 @@ document
   .addEventListener(`click`, function (event) {
     alert(`you clicked on button ${event.target.innerText}`);
   });
+
+const secondAttempt = `zadacha`;
+let solving = `1`;
+for (let i = 0; i < 10; i++) {
+  solving = solving + secondAttempt;
+}
+console.log(solving);
+
+const timesToRepeat = 10;
+const character = `dagon`;
+let answer = `my`;
+for (let i = 0; i < timesToRepeat; i++) {
+  answer = answer + character;
+}
+console.log(answer);
